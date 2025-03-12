@@ -1,0 +1,94 @@
+*{margin: 0; padding: 0;}
+body{background-color: #eee;}
+
+.container{max-width: 1000px;
+    margin:0 auto;
+    background-color:#e4f9f5;
+    padding: 20px;}
+
+.profile-pic{height: 120px;
+width: 100px;
+border: 3px solid white;
+border-radius: 50%;
+float: left;
+}
+
+.profile-name{float: left;
+color: #11999e;
+padding: 30px;
+}
+.profile-name a{color: #11999e;}
+
+h1,h2,h3,h4,h5,h6{color: #11999e;}
+
+.profile-contact {float: right;
+color: teal;
+padding: 25px;
+}
+.profile-contact a{color: teal;
+text-decoration: none;}
+
+.profile-contact a:hover{text-decoration: underline;color: tomato; font-weight: bold;}
+.profile-contact p:hover{text-decoration: dotted; color: tomato;font-weight: bold;}
+
+.clear{clear:both}
+
+hr{border: 3px solid black;
+width: 100%;
+margin: 15px auto;
+border-bottom: none;}
+
+/*-----
+Career Objective section
+------*/
+#Objective{
+
+}
+.content{margin-bottom: 25px;
+
+}
+.left-div{width:25% ;
+    float: left;
+}
+.right-div{width:75%;
+    float: right;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.education-list-left{
+    float: left;
+    width: 45%;
+}
+.eduction-list-right{
+    float: right;
+    width: 45%;
+}
+
+.eduction-list-left2{
+    float: left;
+    width: 45%;  
+}
+.eduction-list-right2{
+    float: right;
+    width: 45%;
+}
+
+.bottom{
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+
+}
+.bottom a{color:white;
+text-decoration: none;
+margin: 20px;
+}
+.bottom p{
+    color:white;
+margin-top: 20px;
+}
